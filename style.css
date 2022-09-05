@@ -1,0 +1,149 @@
+*{
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%; 
+}
+
+body{
+  background-color: lightcyan;
+  margin: 0px;
+}
+
+main{
+  display: flex;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+.titulo{
+  font-family: 'Rubik';
+  font-size: 50px;
+}
+
+.input-texto{
+  margin-top: 90px;
+}
+
+.mensaje{
+  position: relative;
+  margin-top: 20px;
+  margin-left: 90px;
+  background-image: url("imagenes/pensativo_1.jpg");
+  background-repeat: no-repeat;
+  background-position: 18px;
+  background-size: 400px;
+  min-width: 420px
+}
+
+.texto1{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 24px; 
+}
+
+.texto2{
+  text-align: center;
+  font-size: 30px;
+}
+
+.copiar{
+  position: relative;
+  min-width:30%;
+  border-radius:10px;
+  margin-top: 20px;
+  background-color: aqua;
+  color: black;
+  cursor: pointer;
+}
+
+.botones{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.encriptar{
+  background-color: aqua;
+  color: black;
+  cursor: pointer;
+}
+
+.desencriptar{
+  margin-left: 30px;
+  background-color: aqua;
+  color: black;
+  cursor: pointer;
+}
+
+.informacion{
+  font-size: 15px;
+}
+
+.contenedor{
+  display:flex;
+  flex-direction: column;
+  border:1px solid black;
+  justify-content: center;
+  background: white;
+  margin-left:5px;
+}
+
+.ajusteboton{
+  display:flex;
+  justify-content: center;
+}
+
+.hidden{
+  display:hidden;
+  max-width: 0px;
+  max-height: 0px;
+  opacity:0;
+}
+
+.btn{
+  border-radius:10px;
+  transition: all 0.3s ease-in-out
+}
+
+.btn:hover{
+  border-radius:20px;
+  background: #3de9c8;
+  border: 1px solid rgb(0, 153, 255);
+}
+
+#text-id{
+  border:0;
+}
+
+.footer{
+  margin-top:10px;
+  min-height:5em;
+  min-width:100%;
+  background-color: rgb(77, 78, 80);
+  text-align:center;
+}
+.social{
+  max-width:50px;
+  margin-left:5px;
+  margin-right:5px;
+  height:auto;
+  transition: all 0.3s ease-in-out;
+}
+.social:hover{
+  transform: scale(1.2);
+}
+.footerimg{
+  padding-top:20px;
+  text-align:center;
+}
+.text-center{
+  text-align:center;
+}
+
+.texto_logo{
+  display: inline;
+}
+ 
+.texto4{
+  font-size: 20px;
+}

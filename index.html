@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://challenge-one-encriptador.com" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="favico.ico.ico">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header class="text-center">
+        <img src="imagenes/logo_oracle_y_alura-removebg-preview.png" alt="logo de alura y oracle">
+        <h1 class = "titulo">Encriptador Challenge ONE (Oracle + Alura Latam)</h1>
+    </header> 
+    <main>
+        <section>
+            <textarea class="input-texto" cols="40" rows="6"
+            placeholder="Ingrese el texto aqui"></textarea>
+            <br> 
+            <div class = "texto_logo">
+            <img src = "imagenes/Vector.svg" rel = "stylesheet">
+            <span class = "texto4">Solo letras minúsculas y sin acento</span>
+            </div>
+            <div class="botones">
+                
+                <button class="btn encriptar" onclick="botonEncriptar()">
+                    Encriptar
+                </button>
+                <button class="btn desencriptar" onclick="botonDesencriptar()">
+                    Desencriptar
+                </button>
+            </div>
+        </section>
+        
+        <section class="mensaje-box">
+            <div class="contenedor">
+                <div>
+                    <textarea class="mensaje" id="text-id" cols="18" rows="8"></textarea>
+                </div>
+                <div id="error">
+                    <p class = "texto1">Ningún mensaje fue encontrado</p>
+                    <p class = "texto2">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+            </div>
+            <div class="ajusteboton">
+
+                <button class="btn copiar" onclick="copiar()">Copiar</button>
+            </div>
+            </section>
+        </main>
+        <div class="footer">
+            <div class="footerimg">
+                <a style="color: rgba(0,0,0,0)" href="https://github.com/menaaranza">
+                    <img src="imagenes/github.png" class="social">
+                </a>
+                <a style="color: rgba(0,0,0,0)" href="https://www.linkedin.com/in/aranza-carolina-mena-curinao-034235246/">
+                <img src="imagenes/linkedin.png" class="social">
+                </a>
+            </div>
+            <p style="font-size:25px">Desarrollado por Aranza Mena</p>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
